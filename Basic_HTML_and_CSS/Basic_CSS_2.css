@@ -4,7 +4,7 @@
     background-color: darkslategrey;
     font-size: 20px;
     text-align: center;
-    /* Extra properties from your previous assignment image */
-    text-decoration: underline; 
-    font-weight: bold;
+    /* Step: Utilize the text-shadow property */
+    /* Syntax: h-shadow v-shadow blur-radius color */
+    text-shadow: 2px 2px 5px black;
 }
