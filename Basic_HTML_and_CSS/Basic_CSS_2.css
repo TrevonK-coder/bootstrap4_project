@@ -1,0 +1,10 @@
+/* Custom class attribute for all p elements */
+.My_Style {
+    color: white;
+    background-color: darkslategrey;
+    font-size: 20px;
+    text-align: center;
+    /* Extra properties from your previous assignment image */
+    text-decoration: underline; 
+    font-weight: bold;
+}
