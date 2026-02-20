@@ -1,0 +1,20 @@
+/* Styling for the table, headers, and cells */
+table {
+    border: 2px solid black; /* Requirement: Border */
+    background-color: lightgrey; /* Requirement: Background color */
+    color: darkblue; /* Requirement: Font color */
+    width: 50%;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid gray; /* Requirement: Border */
+    padding: 10px;
+}
+
+/* Requirement: Hover selector */
+/* This changes the row color when the mouse is over it */
+tr:hover {
+    background-color: white;
+    color: red;
+}
