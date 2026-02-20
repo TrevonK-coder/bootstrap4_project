@@ -13,38 +13,48 @@
         <a href="#contact">Contact</a>
     </nav>
 
-    <hr>
-
-    <section id="home">
-        <h1>Welcome to My Website</h1>
-        <p>This page is organized into a single-page layout using HTML bookmarks.</p>
-    </section>
+    <header id="home">
+        <h1>Welcome to the Journey</h1>
+        <p>This is the start of my one-page website. I have planned this layout to be functional and easy to navigate using internal links.</p>
+        <hr>
+    </header>
 
     <section id="gallery">
-        <h2>Photo Gallery</h2>
-        <img src="https://via.placeholder.com/200" alt="Placeholder 1">
-        <img src="https://via.placeholder.com/200" alt="Placeholder 2">
+        <h2>Our Gallery</h2>
+        <p>A look at some of our favorite highlights:</p>
+        <img src="https://via.placeholder.com/300x200" alt="Sample Image 1">
+        <img src="https://via.placeholder.com/300x200" alt="Sample Image 2">
+        <img src="https://via.placeholder.com/300x200" alt="Sample Image 3">
+        <hr>
     </section>
 
     <section id="video">
-        <h2>Watch Our Video</h2>
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+        <h2>Featured Video</h2>
+        <p>Watch this short video to learn more about our topic.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <hr>
     </section>
 
     <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <label>Name:</label><br>
-            <input type="text"><br>
-            <label>Email:</label><br>
-            <input type="email"><br><br>
-            <button type="submit">Submit</button>
+        <h2>Get in Touch</h2>
+        <p>Please fill out the form below to contact us.</p>
+        <form action="" method="get">
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" required><br><br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+            <input type="submit" value="Submit">
         </form>
     </section>
 
     <footer>
         <hr>
-        <p>&copy; 2026 My One-Page Project</p>
+        <p>&copy; 2026 My One-Page Web Project. All rights reserved.</p>
     </footer>
 
 </body>
