@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Space Station | Resort</title>
     <style>
-        body { font-family: sans-serif; margin: 20px; line-height: 1.5; }
-        nav ul { list-style-type: none; padding: 0; }
-        nav li { margin-bottom: 5px; }
-        .gallery-head { font-weight: bold; font-size: 1.2em; margin-top: 20px; }
-        .reservation-form { margin-top: 30px; border-top: 1px solid #ccc; pt: 20px; }
-        input { margin-right: 10px; margin-bottom: 10px; padding: 5px; }
-        footer { margin-top: 40px; font-size: 0.8em; color: #666; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 40px; line-height: 1.6; color: #333; }
+        nav ul { list-style-type: none; padding: 0; display: flex; gap: 20px; }
+        nav li { font-weight: bold; cursor: pointer; color: #1a73e8; }
+        .logo { font-size: 1.5em; font-weight: bold; margin: 20px 0; display: block; }
+        .gallery-section { margin-top: 30px; padding: 20px; background: #f8f9fa; border-radius: 8px; }
+        .reservation-form { margin-top: 30px; border-top: 2px solid #eee; padding-top: 20px; }
+        input[type="text"], input[type="email"], input[type="tel"] { 
+            padding: 10px; margin: 5px 0; width: 100%; max-width: 300px; display: block; border: 1px solid #ccc; border-radius: 4px; 
+        }
+        button { background: #1a73e8; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; margin-top: 10px; }
+        button:hover { background: #1557b0; }
+        footer { margin-top: 50px; border-top: 1px solid #eee; padding-top: 10px; font-size: 0.9em; color: #777; }
+        .external-link { margin-top: 20px; display: block; color: #d32f2f; font-weight: bold; }
     </style>
 </head>
 <body>
@@ -24,31 +30,34 @@
         </ul>
     </nav>
 
-    <span>The Space Station</span>
+    <span class="logo">The Space Station</span>
 
-    <div class="gallery-head">Gallery</div>
-    <p><strong>Click to Enlarge</strong></p>
-    <p>We have several space launches departing daily, book your flight today!</p>
+    <div class="gallery-section">
+        <h2>Gallery</h2>
+        <p><strong>Click to Enlarge</strong></p>
+        <p>We have several space launches departing daily, <em>book your flight today before seats fill up!</em></p>
+    </div>
 
     <div class="reservation-form">
         <h3>Reservations</h3>
         <p><strong>Your adventure is just around the moon. Reserve your flight today!</strong></p>
+        
+        <a href="https://www.nasa.gov" class="external-link" target="_blank">Learn more about Moon Missions at NASA.gov</a>
+
         <p>Please provide us with your basic contact information.</p>
         
         <form>
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="email" placeholder="Email Address">
+            <input type="text" placeholder="First Name" required>
+            <input type="text" placeholder="Last Name" required>
+            <input type="email" placeholder="Email Address" required>
             <input type="tel" placeholder="Phone Number">
-            <br>
-            <label><input type="checkbox"> Terms and Conditions</label>
-            <br>
-            <button type="submit">Submit</button>
+            <p><input type="checkbox" id="terms"> <label for="terms">I agree to the Terms and Conditions</label></p>
+            <button type="submit">Submit Reservation</button>
         </form>
     </div>
 
     <footer>
-        www.thespacestation.space | &copy; 2026
+        www.thespacestation.space &nbsp; | &nbsp; &copy; 2026
     </footer>
 
 </body>
