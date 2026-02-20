@@ -1,0 +1,5 @@
+/* This rule-set styles all <p> elements in any linked HTML file */
+p {
+    color: darkgreen;
+    text-align: center;
+}
