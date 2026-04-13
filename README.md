@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bootstrap 4 Project — Lumina Agency
 
 A premium creative agency website built with **Bootstrap 4**, HTML5, CSS3, and vanilla JavaScript.
@@ -47,3 +48,7 @@ bootstrap4_project/
 - **Google Fonts** — Outfit + Inter
 - Vanilla CSS3 (custom properties, animations, glassmorphism)
 - Vanilla JavaScript (ES5 compatible)
+=======
+# HTML-and-CSS-Projects
+This repository contains all my web development projects and exercises for my current course. It showcases my progress in HTML5 and CSS3.
+>>>>>>> 1c9231c821a8fd90b4e4fbf24d9fb240466b1870

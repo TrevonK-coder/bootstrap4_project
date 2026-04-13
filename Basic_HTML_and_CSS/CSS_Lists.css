@@ -1,0 +1,11 @@
+/* Changing the marker for the Unordered List */
+ul {
+    list-style-type: square; /* Options: square, circle, none */
+    color: darkgreen;
+}
+
+/* Changing the marker for the Ordered List */
+ol {
+    list-style-type: upper-roman; /* Options: upper-roman, lower-alpha, georgian */
+    color: darkred;
+}

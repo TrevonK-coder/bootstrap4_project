@@ -1,0 +1,10 @@
+/* Custom class attribute for all p elements */
+.My_Style {
+    color: white;
+    background-color: darkslategrey;
+    font-size: 20px;
+    text-align: center;
+    /* Step: Utilize the text-shadow property */
+    /* Syntax: h-shadow v-shadow blur-radius color */
+    text-shadow: 2px 2px 5px black;
+}
